@@ -1,0 +1,5 @@
+aiogram
+groq
+requests
+pypdf
+flask
