@@ -18,9 +18,9 @@ from pypdf import PdfReader
 # ==========================================
 # НАСТРОЙКИ
 # ==========================================
-TELEGRAM_TOKEN = os.environ.get("ТВОЙ_ТОКЕН_СЮДА")
-GROQ_API_KEY = os.environ.get("ТВОЙ_ТОКЕН_СЮДА")
-OPENROUTER_API_KEY = os.environ.get("ТВОЙ_ТОКЕН_СЮДА")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "ТВОЙ_ТОКЕН_СЮДА")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "ТВОЙ_КЛЮЧ_СЮДА")
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "ТВОЙ_КЛЮЧ_СЮДА")
 
 # ВСТАВЬ СЮДА СВОЙ ID ИЗ @userinfobot (цифры)
 ADMIN_ID = 123456789 
