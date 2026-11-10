@@ -23,7 +23,7 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "ТВОЙ_КЛЮЧ_СЮДА")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "ТВОЙ_КЛЮЧ_СЮДА")
 
 # ВСТАВЬ СЮДА СВОЙ ID ИЗ @userinfobot (цифры)
-ADMIN_ID = 123456789 
+ADMIN_ID = 6979825464
 
 bot = Bot(token=TELEGRAM_TOKEN)
 dp = Dispatcher()
